@@ -1,5 +1,5 @@
 """
-test jeu py : un jeu de tir vu de dessus, salle après salle.
+test game py : un jeu de tir vu de dessus, salle après salle.
 C'est le fichier à lancer.
 
 Commandes :
@@ -322,7 +322,7 @@ def main():
     # Une icône entièrement transparente remplace le logo pygame affiché par défaut
     pygame.display.set_icon(pygame.Surface((32, 32), pygame.SRCALPHA))
     ecran = pygame.display.set_mode((LARGEUR, HAUTEUR))
-    pygame.display.set_caption("test jeu py")
+    pygame.display.set_caption("test game py")
     pygame.mouse.set_visible(False)  # le viseur dessiné par le jeu remplace la flèche
     horloge = pygame.time.Clock()
     polices = creer_polices()

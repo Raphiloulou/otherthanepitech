@@ -15,7 +15,7 @@ SALLE_FINALE = 15
 SALLES_PAR_THEME = 5        # le décor change et un boss apparaît toutes les 5 salles
 
 # --- Joueur ---
-VIE_JOUEUR = 5
+VIE_JOUEUR = 3
 VITESSE_JOUEUR = 260        # pixels par seconde
 DELAI_TIR_JOUEUR = 0.32     # secondes entre deux tirs
 VITESSE_TIR_JOUEUR = 600
