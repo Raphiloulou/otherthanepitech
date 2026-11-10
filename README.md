@@ -24,6 +24,8 @@ git clone https://github.com/Raphiloulou/otherthanepitech.git
 
 in VS Code: **File > Open Folder**, pick the game folder, then **Terminal > New Terminal**.
 
+careful: unzipping on Windows sometimes gives you a folder inside a folder with the same name. open the one that has `jeu.py` directly inside, not the one above it, or you'll get a `No such file or directory` error.
+
 **4. install pygame-ce** (one time only)
 
 on Windows:
